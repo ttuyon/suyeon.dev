@@ -1,0 +1,19 @@
+{
+  "name": "suyeon.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "now --target production"
+  },
+  "author": "ttuyon",
+  "license": "ISC",
+  "repository": "https://github.com/ttuyon/suyeon.dev.git",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
