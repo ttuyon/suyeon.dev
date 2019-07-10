@@ -28,6 +28,29 @@ main {
   background: #272822;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 1.4em;
+  padding: 0.6rem;
+  line-height: 0;
+
+  a {
+    transition: opacity 0.2s linear;
+    color: white !important;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  a + a {
+    margin-left: 0.5rem;
+  }
+}
+
 .avatar {
   width: 180px;
   height: 180px;
