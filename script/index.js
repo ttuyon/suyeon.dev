@@ -17,13 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
         subtitleElement.innerHTML = messages[currentMessage] + '<span class="cursor">_</span>';
     }, 5000);
 });
-
-// 클릭 시 작은 이스터 에그
-document.addEventListener('click', function() {
-    const body = document.body;
-    body.style.background = 'linear-gradient(135deg, #1a0a0a 0%, #0a1a0a 100%)';
-    
-    setTimeout(() => {
-        body.style.background = 'linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%)';
-    }, 1000);
-});
